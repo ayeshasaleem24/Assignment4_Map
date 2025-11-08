@@ -1,15 +1,9 @@
 void main() {
-  // Shopping cart map
-  Map<String, int> cart = {
-    'Banana': 3,
-    'Pineapple': 6,
-    'Apple': 5,
-    'Orange': 2,
-  };
+  // Trying to increment a constant value
+  // print(5++); //bThis will give an error
 
-  if (cart.containsKey('Apple')) {
-    print('Product found');
-  } else {
-    print('Product not found');
-  }
+  // Correct way: use a variable
+  int num = 5;
+  num++; // Works fine, num becomes 6
+  print(num); // Output: 6
 }

@@ -1,5 +1,4 @@
 void main() {
-  // Shopping cart map
   Map<String, int> cart = {
     'Banana': 3,
     'Pineapple': 6,
